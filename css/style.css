@@ -1,0 +1,117 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+b,i,strong,em{font-style: normal;}
+li{list-style: none;}
+img{vertical-align: middle;}
+body{font-family: "微软雅黑";background:#f0f3ef;}
+
+/*header*/
+header{width: 100%;height: 170px;}
+.p1{width: 100%;height: 30px;border-bottom: 1px solid #ddd;background: #e3e4e5;}
+.p1 .p2{width: 1190px;height: 30px;margin: auto;font-size: 12px;}
+.p2 .icon1{font-size: 12px;margin-left: 210px;line-height: 30px;color: #999999;}
+.p2 b{font-weight: normal;color: #999999;margin-left: 220px;}
+.p2 ul{float: right;width: 640px;height: 30px;display: flex;text-align: center;line-height: 30px;}
+.p2 ul li{font-size: 12px;padding: 0 10px;color: #999999;}
+.p2 ul .first{padding-left: none;color: red;}
+.p2 ul i{margin-left:-9px;}
+.p2 ul .last{position: relative;}
+.p2 ul .last .extr{position: absolute;right: 0;top:30px;width: 68px;height: 68px;z-index: 20;}
+.p2 ul .last ul{width: 170px;height:275px;position: absolute;right: 0;top:30px;z-index: 10;display: none;}
+.p2 ul .last ul li{width: 170px;height: 90px;float: inherit;}
+.p2 ul .last ul li img{height: 100%;width:100px;float: right;}
+.p2 ul .last:hover .extr{display: none;}
+.p2 ul .last:hover ul{display: block;}
+
+
+.head{width: 1190px;height: 116px;margin: auto;position: relative;padding-top:24px;}
+.head .logo{width: 190px;height: 170px;display: block;position: absolute;top: -30px;}
+.head .ip1{width: 500px;height: 35px;margin-left: 300px;border: 0;display:block;float: left;}
+.head .icon2{margin-left: -40px;display: inline-block;float: left;line-height: 35px;}
+.head #box{width: 500px;position: absolute;left: 300px;top: 60px;background: pink;z-index: 33;}
+.head #box li{float: none;height: 20px;width: 300px;}
+.head .ip2{width: 50px;height: 35px;float: left;display: block;border: 0;background: red;}
+.head .icon3{margin-left: -40px;display: inline-block;float: left;line-height: 38px;color: white;}
+.head .shop{width: 190px;height: 35px;border: 1px solid #e3e4e5;float: left;margin-left:30px;line-height: 35px;background: white;}
+.head .shop .icon4{margin-left: 50px;color: red;margin-top:5px;}
+.head .shop span{color: red;}
+.head ul{width: 530px;height: 12px;font-size: 12px;margin-left: 300px;margin-bottom: 30px;}
+.head li{width: 48px;height: 12px;margin: 0 4px;float: left;}
+.head ul .li1{color: red;}
+.head ul li:hover{color: red;cursor: pointer;}
+.head .ul2{width: 770px;height: 25px;font-size: 12px;position: absolute;left: -80px;bottom: -20px;display: flex;text-align: center;line-height: 25px;}
+.head .ul2 li{font-size: 12px;padding: 0 15px;}
+
+/*section*/
+section{width: 100%;height: 480px;margin-top: 2px;}
+.main{width: 1190px;height: 480px;margin: auto;margin-bottom: 30px;position: relative;}
+.main .mainL{width: 170px;height: 475px;background: white;padding-left: 20px;padding-top: 5px;float: left;}
+.main .mainL li{height: 25px;line-height: 25px;font-size: 14px;width: 190px;}
+.main .mainL li:hover{color: red;}
+
+.main .mainC{width: 590px;height: 470px;float: left;padding: 10px 10px 0 10px;position: relative;}
+.main .mainC .imgUl{width: 590px;height: 470px;}
+.main .mainC .imgUl li{position: absolute;left: 10;top: 10;}
+.main .mainC .imgUl .img1{z-index: 10;}
+.main .mainC #dotUl{cursor:pointer;width: 200px;height: 10px;position: absolute;left: 50px;bottom: 25px;opacity: 0.5;z-index: 20;}
+.main .mainC .dotUl li{position:relative;border: 3px solid white;border-radius: 50%;margin-right:5px;width: 5px;height: 5px;float: left;}
+.main .mainC .jt{cursor:pointer;width: 590px;height: 50px;position: absolute;left: 10px;top: 210px;z-index: 30;}
+.main .mainC .jt #toLeft{width: 25px;height:40px;color:white;font-size: 20px;line-height: 40px;text-align: center;background:#ccb6b7;opacity: 0.5;float: left;}
+.main .mainC .jt #toRight{width: 25px;height:40px;color:white;font-size: 20px;line-height: 40px;text-align: center;background:#ccb6b7;opacity: 0.5;float: right;}
+.main .mainC .dotUl .show:after{content: "";display: block;border:4px solid #ccc;border-radius:50%;background:yellow;width:7px;height: 7px;position: absolute;top:0;left:0;bottom:0;right:0;margin:auto;margin-left:-5px ;}
+
+.main .mainR{width: 190px;height: 470px;float: left;padding-top:10px;}
+.main .mainR li{width: 190px;height: 150px;margin-bottom: 10px;}
+.main .mainR li:hover{opacity: 0.8;}
+
+.main .mainLast{width: 190px;height: 480px;float: left;background:white;margin-left: 10px;position: relative;}
+.main .mainLast img{width: 190px;height: 160px;}
+.main .mainLast .container{display:inline-block;width: 175px;height: 34px;padding-left: 15px;margin-top: 5px;}
+.main .mainLast .container a{cursor:pointer;display:inline-block;color:#666;font-size: 12px;width: 28px;height: 18px;text-align:center;margin-right: 13px;}
+.main .mainLast .container i{margin-left: 25px;cursor:pointer;display:inline-block;color:#666;font-size: 12px;width: 28px;height: 18px;text-align:center;margin-right: 13px}
+.main .mainLast .container a:hover{color:red;border-bottom:2px solid red;}
+.main .mainLast .container i:hover{color:red;border-bottom:2px solid red;}
+
+.main .mainLast .con{width: 160px;height: 100px;border-bottom: 1px solid #ccc;margin-left: 15px;}
+.main .mainLast .con .content li{width: 160px;height: 20px;font-size: 12px;line-height: 20px;}
+.main .mainLast .con .tab{width: 160px;height: 100px;display: none;}
+
+.main .mainFly{width: 168px;height: 168px;overflow:hidden;background: white;position: absolute;right: 0;bottom: 0;padding:20px 11px 0 11px;border-top: 1px solid #ebeaea;}
+.main .mainFly ul{width: 168px;height: 168px;display:flex;flex-wrap:wrap;position: absolute;left: 11px;top: 20px;}
+.main .mainFly ul li{width: 42px;height: 56px;text-align: center;font-size: 12px;}
+.main .mainFly ul li a{color: #cca68d;margin-top: 45px;}
+.main .mainFly ul li a:hover{color: red;}
+.main .mainFly .tabMain{width: 190px;height: 160px;position: absolute;right: 0;top: 188px;}
+.main .mainFly .tabMain p{width: 190px;height: 160px;position: absolute;left: 0;top: 0;}
+.main .mainFly .tabMain img{width: 190px;height: 160px;}
+.main .mainFly .tabMain #btn{width: 10px;height: 10px;position: absolute;right: 0;top: 0;}
+
+.banner{width: 1190px;height: 275px;margin: auto;background: blanchedalmond;}
+.banner .box2{width: 136px;height: 225px;background: #e83632;padding: 50px 27px 0 27px;float: left;}
+.banner .box2 h3{color: white;font-size: 32px;margin-bottom: 5px;}
+.banner .box2 h4{color:#f39a98;text-align: center;}
+.banner img{display: block;width: 25px;height: 35px;margin: 15px 55px;}
+.banner .box2 h5{color:#f2ccf2;text-align: center;}
+.banner .box1{width: 40px;height: 40px;background: repeating-linear-gradient(#333,#333 47%,#e83632 55%);margin-right: 4px;margin-top: 20px;text-align: center;line-height: 40px;}
+.banner .box2 div{float: left;color: white;}
+
+.banner .bannerC{width: 800px;height: 275px;float: left;background: white;position: relative;overflow: hidden;}
+.banner .bannerC .bc{width: 1000%;height: 275px;position: absolute;left: 0;top: 0;}
+.banner .bannerC li{width: 199px;height: 275px;float:left;border-right: 1px solid #f0f0f0;position: relative;}
+.banner .bannerC li img{width: 115px;height: 138px;margin: 42px 42px 0 42px;}
+.banner .bannerC li p{width: 200px;height: 50px;font-size: 12px;text-align: center;line-height: 50px;}
+.banner .bannerC li .oldPrice{width: 80px;height: 20px;background: red;position: absolute;left: 20px;bottom: 20px;}
+.banner .bannerC li .newPrice{width: 79px;height: 18px;border:1px solid red;background: white;position: absolute;left: 100px;bottom: 20px;}
+.banner .bannerC #zuo{cursor:pointer;width: 20px;height: 50px;position: absolute;left: 0;top: 120px;background:#DDDDDD;font-size:24px;text-align: center;line-height: 50px;}
+.banner .bannerC #you{cursor:pointer;width: 20px;height: 50px;position: absolute;right: 0;top: 120px;background:#DDDDDD;font-size:24px;text-align: center;line-height: 50px;}
+
+.banner .bannerL{width: 180px;height: 255px;padding: 10px;background: white;float: left;position: relative;overflow: hidden;}
+.banner .bannerL .liUl{width: 1000px;height: 255px;position: absolute;left: -200px;margin-left:10px ;}
+.banner .bannerL .liUl li{width: 180px;height: 255px;float: left;margin-right:20px ;}
+.banner .bannerL .liUl li img{display:block;width: 180px;height:255px;margin: auto;}
+.banner .bannerL #dian{width: 24px;height: 10px;position: absolute;left: 90px;bottom: 20px;}
+.banner .bannerL #dian li{width: 10px;height: 10px;background: #c0c0c0;border-radius: 5px;margin-right:2px;float: left;}
+.banner .bannerL #dian .hs{background:red;}
+
+.topBang{width: 1190px;height: 450px;margin: auto;background: greenyellow;}
+.topBang .topBangL{width: 390px;height: 450px;float: left;margin-right:10px;background: hotpink;}
